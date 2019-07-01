@@ -6,7 +6,7 @@ WORKDIR /app
 
 RUN npm i typescript -g
 
-copy package.json /app
+COPY package.json /app
 
 RUN npm i
 
